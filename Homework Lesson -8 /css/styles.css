@@ -1,0 +1,394 @@
+.headerbackground{
+    height: 700px;
+    width: 1500px;
+}
+
+.logoimage{
+ 
+  
+    height:50px;
+    width: 250px;
+    display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+}
+.container {
+  display: flex;
+      justify-content: space-between;
+    text-align: center;
+    color: white;
+      max-width: 1800px;
+      
+      
+      
+      
+  }
+  .centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('/images/melbourne-image.jpeg');
+    border-radius: 35px;
+    background-size: cover ;
+    height: 300px;
+    margin:30px;
+    color: #fff;
+    text-align: center;
+    padding: 180px;
+}
+h1{
+
+    font-family: Pangea Display,Helvetica,Arial;
+    color: #143bd7;
+    font-size: 80px;
+    line-height: 1.1;
+}
+
+nav {
+
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    top: -100px;
+    width: 100%;
+    position:relative;
+
+}
+.span {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1f67db;
+  line-height: 30px;
+}
+        .nav {
+          float: left;
+          color: black;
+
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .nav a {
+          color: #010101;
+            text-decoration: none;
+            margin: 0 5px;
+
+        }
+        .nav a:hover {
+            color:#143bd7;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+          p {
+              font-family: Pangea Display,Helvetica,Arial;
+            color: #28292c;
+            font-size: 26px;
+            line-height: 1.1;
+          }
+
+    section {
+      padding: 50px;
+    
+  }
+  
+  article {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 35px;
+      background-color:#f0f6ff;
+  }
+  
+  
+.box1{
+width: 60.75%;
+height: 250px;
+background:white;
+display: table-cell;
+vertical-align: top;
+margin: 15px;
+padding: 20px;
+}
+
+.box2{
+
+width: 175px;
+height: 250px;
+background: #eef4ef;
+display: table-cell;
+offset-distance: 10px;
+margin: 15px;
+vertical-align: top;
+padding: 30px;
+border-radius: 35px;
+
+
+
+}
+
+
+
+.box3{
+
+  width: 175px;
+
+height: 250px;
+background: #fdf2f1;
+display: table-cell;
+offset-distance: 10px;
+vertical-align: top;
+border-radius: 35px;
+padding: 30px;
+margin: 15px;
+}
+
+
+
+.row {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .column {
+      flex-basis: 30%;
+      text-align: center;
+      margin: 10px;
+     
+
+  }
+ 
+
+  .column img {
+      width: 100%;
+      max-width: 100%;
+      height: 350px;
+      background-size:cover;
+      background-position:center center;
+      border-radius: 35px;
+  }
+
+  .column h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+  }
+
+  .column p {
+      font-size: 1rem;
+      text-align: justify;
+  }
+
+  .column1 {
+      flex-basis: 30%;
+      grid-column: 5;
+      text-align: center;
+      margin: 10px;
+     
+
+  }
+  .column1 img {
+      width: 75%;
+      max-width: 100%;
+      height: 250px;
+      background-size:cover;
+      background-position:center center;
+      border-radius: 35px;
+  }
+  .column1 h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+  }
+  .column1 p {
+      font-size: 1rem;
+      text-align: justify;
+  }
+  
+  footer {
+    background-color: #333;
+      padding: 10px;
+      
+  }
+ .footer p {
+  font-family: Pangea Display,Helvetica,Arial;
+  color: #ecedef;
+  text-align: center;
+ }
+  .boxa {
+    text-align: center;
+    display: block; /* Ensures the link takes up the full width */
+    width: 100%; 
+    
+  }
+  
+  @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+.headerbackground{
+  height: 100px;
+  width:480px;
+}
+
+.container {
+  
+  width: 800px;
+
+border-spacing: 10px;
+
+    
+      
+  }
+  .logoimage{
+ 
+  
+    height:30px;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -35px;
+  
+}
+
+  
+header {
+  background-image: url('/images/melbourne-image.jpeg');
+  border-radius: 0px;
+  
+  width:480px;
+  height: 100px;
+  margin:0px;
+  
+  padding: 180px;
+}
+h1{
+
+  
+  font-size: 100px;
+  line-height: 0.5;
+}
+
+.nav { 
+ 
+  
+  font-size: 20px;
+}
+
+
+     
+.span {
+  
+  line-height: 40px;
+}
+.nav a {
+  
+    
+    margin: 0 2px;
+
+}
+.nav a:hover {
+    color:#143bd7;
+}
+nav a {
+ 
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+p {
+  
+text-align: left;
+font-size: 14px;
+line-height: 1.1;
+}
+
+.box1{
+  width:200px;
+  height: 100px;
+  margin: 15px;
+  padding: 0px;
+  }
+  
+  .box2{
+  
+  width: 150px;
+  height: 100px;
+  background: #eef4ef;
+  margin: 15px;
+  padding: 20px;
+  
+  
+  }
+  
+  
+  
+  .box3{
+  
+  width: 150px;
+  height: 100px;
+  background: #fdf2f1;
+  padding: 20px;
+  margin: 15px;
+  margin-right: 25px;
+  }
+  section {
+
+    width:400px;
+
+}
+article {
+  
+  width:800px;
+  border-radius: 0px;
+}
+.row {
+  
+  width:800px;
+ 
+}
+.column img {
+  
+  height: 150px;
+  
+}
+.column1 img {
+  width: 75%;
+  max-width: 100%;
+  height: 100px;
+  border-radius: 35px;
+}
+footer {
+  
+ width: 800px;
+ padding: 20px;
+  
+}
+
+}
+
+
